@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="./script.js"></script>
+    <style>
+      td {
+        height: 50px;
+        width: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Player 1 => X , Player 2 => Y</p>
+    <div id="div">
+      <table border="1" id="table">
+        <tr>
+          <td onclick="tick(0,0)"></td>
+          <td onclick="tick(0,1)"></td>
+          <td onclick="tick(0,2)"></td>
+        </tr>
+        <tr>
+          <td onclick="tick(1,0)"></td>
+          <td onclick="tick(1,1)"></td>
+          <td onclick="tick(1,2)"></td>
+        </tr>
+        <tr>
+          <td onclick="tick(2,0)"></td>
+          <td onclick="tick(2,1)"></td>
+          <td onclick="tick(2,2)"></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
